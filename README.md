@@ -68,10 +68,5 @@ This project implements a highly available, secure, and scalable three-tier arch
 - **Database:** RDS with Multi-AZ setup and secure connection.
 - **Automation:** Automated deployment using Terraform modules.
 
----
-
-## 🏆 License
-This project is licensed under the MIT License.
-
 Happy Deploying! 🚀
 
