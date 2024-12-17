@@ -44,7 +44,7 @@ resource "aws_lb_target_group" "three_tier_web_lb_tg" {
   vpc_id   = aws_vpc.three_tier_vpc.id
   health_check {
     interval            = 30
-    path                = "/"
+    path                = "/health"
     port                = "traffic-port"
     protocol            = "HTTP"
     timeout             = 10
