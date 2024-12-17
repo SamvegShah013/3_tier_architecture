@@ -8,7 +8,7 @@ resource "aws_autoscaling_group" "three_tier_app_asg" {
   vpc_zone_identifier = [aws_subnet.privat_sub_3.id, aws_subnet.privat_sub_4.id]
   min_size            = 2
   max_size            = 3
-  desired_capacity    = 2
+  desired_capacity    = 0
 }
 
 # Create Launch Template - app
