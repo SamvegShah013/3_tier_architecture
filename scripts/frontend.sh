@@ -14,7 +14,7 @@ sudo git clone https://github.com/SamvegShah013/TodoApp.git
 cd TodoApp/frontend
 
 # Install Node.js Dependencies and Build Project
-sudo npm install
+sudo npm install 
 sudo npm run build
 
 # Deploy Built Files to Apache Server
